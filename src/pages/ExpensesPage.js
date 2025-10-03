@@ -641,7 +641,9 @@ export default function ExpenseManager() {
                       <th>Category</th>
                       <th>SubCategory</th>
                       <th>Place</th>
-                      <th>Store</th>
+                      
+                      {/* <th>Store</th> */}
+                      
                       <th>Amount</th>
                       <th>Paid For</th>
                       <th>Note</th>
@@ -663,7 +665,7 @@ export default function ExpenseManager() {
                         <td>
                           {places.find((p) => p.id === exp.place)?.name || "-"}
                         </td>
-                        <td>{exp.store}</td>
+                        {/* <td>{exp.store}</td> */}
                         <td>{exp.amount}</td>
                         <td>{exp.paidFor}</td>
                         <td>{exp.note}</td>

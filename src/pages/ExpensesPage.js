@@ -697,3 +697,5 @@ export default function ExpenseManager() {
     </div>
   );
 }
+
+// I added a new line
